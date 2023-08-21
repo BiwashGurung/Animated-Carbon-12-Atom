@@ -70,3 +70,14 @@ h1 {
 	0% { transform: rotate(0deg); }
 	100% { transform: rotate(360deg);}
 }
+.orbits:before, .orbits:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	animation: orbit-spin 180s linear 0s infinite;
+	border: 0.2vmin dotted #CDDC3980;
+	filter: blur(1px);
+	opacity: 0.5;
+}
