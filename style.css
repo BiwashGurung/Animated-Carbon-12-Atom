@@ -309,3 +309,8 @@ p:after {
 	--c2: #fa0001;
 	content: "+";
 }
+.inner-nucleous p + p:before {
+	--c1: #082976;
+	--c2: #124b9c;
+	content: "";
+}
