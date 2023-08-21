@@ -213,3 +213,9 @@ h1 {
 	top: 19vmin !important;
 	height: 17.5vmin !important;
 }
+.inner-nucleous:before {
+	transform: rotate(155deg) !important;
+	left: -34.125vmin;
+	margin-top: 11vmin !important;
+}
+
