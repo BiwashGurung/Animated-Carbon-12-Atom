@@ -304,3 +304,8 @@ p:after {
 	width: 100%;
 	text-align: center;
 }
+.inner-nucleous p:before {
+	--c1: #bc0003;
+	--c2: #fa0001;
+	content: "+";
+}
