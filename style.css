@@ -268,3 +268,10 @@ h3 {
 	border-bottom: 0.25vmin dotted #fff;
 	padding-bottom: 0.75vmin;
 }
+p {
+	text-align: left;
+	font-weight: normal;
+	margin: 1vmin 0 3vmin -2.75vmin;
+	font-size: 1.5vmin;
+	padding-left: 5vmin;
+}
