@@ -320,3 +320,7 @@ p:after {
 .inner-nucleous p + p:after {
 	content: "( NO CHARGE )";
 }
+body:has(.outer-shell:hover) .atom .orbits .electron:nth-child(n+5),
+body:has(.outer-shell:hover) .atom .nucleous {
+	opacity: 0.15;
+}
