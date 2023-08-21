@@ -183,3 +183,7 @@ h1 {
 .inner-shell {
 	margin-top: 0.95vmin;
 }
+.outer-shell {
+	top: 10vmin;
+	margin-right: 83.5vmin;
+}
