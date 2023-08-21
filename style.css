@@ -25,3 +25,13 @@ h1 {
 	font-size: 3.5vmin;
 	margin: 0;
 }
+.atom {
+	width: 50vmin;
+	height: 50vmin;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100%;
+	transition: 0.4s ease 0s;
+	cursor: zoom-in;
+}
