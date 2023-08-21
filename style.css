@@ -393,6 +393,11 @@ body:has(.inner-nucleous:hover) .atom .orbits .electron {
 		margin-top: 17.75vmin;
 		transform: rotate(60deg);
 	}
+    .info > div.outer-shell:before {
+		transform: rotate(52deg);
+		margin-top: 33vmin;
+		right: -28vmin;
+	}
 
 
 }
