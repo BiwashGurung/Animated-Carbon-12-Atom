@@ -355,3 +355,6 @@ body:has(.inner-nucleous:hover) .atom .orbits .electron {
 }
 
 /*** -------------------CSS FOR PORTRAIT ----------------***/
+@media only screen and (orientation: portrait) {
+    
+}
