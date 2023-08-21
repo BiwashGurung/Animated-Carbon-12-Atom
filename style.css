@@ -494,7 +494,7 @@ body:has(.inner-nucleous:hover) .atom .orbits .electron {
 	font-size: 3.5vmin;
 	color: #fff;
 	font-weight: bold;
-	border: 0.25vmin solid #ffffffc9;
+	border: 0.80vmin double #C0C0C0;
 	width: 5vmin;
 	height: 5vmin;
 	display: flex;
