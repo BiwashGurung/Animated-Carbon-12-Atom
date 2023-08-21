@@ -243,3 +243,12 @@ h1 {
 	margin-top: 2.75vmin;
 	width: 21.5vmin;
 }
+.info-particle {
+	position: absolute;
+	width: 20vmin;
+	height: 11.5vmin;
+	left: 0;
+	top: 0;
+	border: 0.25vmin dotted #fff;
+	border-radius: 0.2vmin;
+}
