@@ -148,5 +148,9 @@ h1 {
 	left: 18%;
 	top: 18%;
 }
+.electron:nth-child(5) {
+	--pos: rotateY(140deg);
+	--tim: 1.125s;
+}
 
 
