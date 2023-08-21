@@ -106,4 +106,25 @@ h1 {
 	100% { transform: rotateX(80deg) var(--pos) rotate(-360deg);}
 }
 
+.electron:before {
+	--c1: #8BC34A;
+	--c2: #CDDC39;
+	width: 1vmin;
+	height: 1vmin;
+	content: "";
+	position: absolute;
+	border-radius: 100%;
+	box-shadow: 0 0 9px 0px #CDDC39;
+	border: 1px solid #fff8;
+	left: calc(50% - 0.5vmin);
+	top: -0.5vmin;
+	background: 
+		radial-gradient(circle at 40% 60%, #fff0, 3vmin, #00000040 calc(3vmin + 1px) 100%), 
+		radial-gradient(circle at 45% 73%, #fff, 0.3vmin, #fff0 calc(0.3vmin + 1px) 100%), 
+		radial-gradient(circle at 27% 58%, #fff, 0.5vmin, #fff0 calc(0.5vmin + 1px) 100%), 
+		radial-gradient(circle at 40% 60%, var(--c2), 1vmin, #fff0 calc(1vmin + 1px) 100%), var(--c1);
+	transform: rotateX(90deg);
+	animation: orbit-electron-particle var(--tim) linear 0s infinite;
+}
+
 
