@@ -348,3 +348,9 @@ body:has(.inner-nucleous:hover) .atom .orbits .electron {
 	justify-content: center;
 	border-radius: 100%;
 }
+.show-info:hover {
+	color: #111;
+	background: #fff;
+	border-color: #111;
+}
+
