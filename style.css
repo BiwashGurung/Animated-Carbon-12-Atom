@@ -59,3 +59,10 @@ h1 {
 }
 
 /**---------------- CSS FOR ELECTRONS----------------------------------***/
+.orbits {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	animation: orbit-spin 180s linear 0s infinite;
+}
