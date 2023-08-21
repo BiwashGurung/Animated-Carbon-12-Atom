@@ -334,3 +334,17 @@ body:has(.inner-nucleous:hover) .atom .orbits .electron {
 .show-info:hover + .info > div {
 	opacity: 0.9;
 }
+.show-info {
+	position: absolute;
+	bottom: 4vmin;
+	font-size: 3.5vmin;
+	color: #fff;
+	font-weight: bold;
+	border: 0.25vmin solid #ffffffc9;
+	width: 5vmin;
+	height: 5vmin;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100%;
+}
