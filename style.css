@@ -384,6 +384,10 @@ body:has(.inner-nucleous:hover) .atom .orbits .electron {
     p:after {
 		font-size: 1.65vmin;
 	}
+    .info > div.outer-shell {
+		margin-top: calc(50vh - 53.5vmin);
+		margin-right: 47.5vmin;
+	}
 
 
 }
