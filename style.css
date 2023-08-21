@@ -381,6 +381,9 @@ body:has(.inner-nucleous:hover) .atom .orbits .electron {
     p {
 		font-size: 2vmin;
 	}
+    p:after {
+		font-size: 1.65vmin;
+	}
 
 
 }
