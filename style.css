@@ -252,3 +252,6 @@ h1 {
 	border: 0.25vmin dotted #fff;
 	border-radius: 0.2vmin;
 }
+.inner-nucleous .info-particle {
+	height: 17.25vmin;
+}
