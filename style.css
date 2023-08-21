@@ -152,5 +152,9 @@ h1 {
 	--pos: rotateY(140deg);
 	--tim: 1.125s;
 }
+.electron:nth-child(6) {
+	--pos: rotateY(25deg);
+	--tim: 1s;
+}
 
 
