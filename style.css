@@ -187,3 +187,15 @@ h1 {
 	top: 10vmin;
 	margin-right: 83.5vmin;
 }
+.info > div:before {
+	content: "";
+	position: absolute;
+	width: 15vmin;
+	height: 15vmin;
+	border: 0.25vmin solid #fff0;
+	border-left: 0.25vmin dotted #fff;
+	border-radius: 100% 0 0 0;
+	transform: rotate(-45deg);
+	right: -25vmin;
+	margin-top: -33vmin;
+}
