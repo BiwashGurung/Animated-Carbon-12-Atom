@@ -16,3 +16,12 @@ body * {
 *::before {
 	box-sizing: border-box;
 }
+h1 {
+	position: absolute;
+	top: 4vmin;
+	color: #fff;
+	font-family: Arial, serif;
+	font-weight: normal;
+	font-size: 3.5vmin;
+	margin: 0;
+}
