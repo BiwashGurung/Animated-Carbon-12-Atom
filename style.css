@@ -402,6 +402,12 @@ body:has(.inner-nucleous:hover) .atom .orbits .electron {
 		margin-right: -36vmin;
 		margin-top: calc(50vh - 84vmin);
 	}
+    .inner-shell:after {
+		width: 14vmin;
+		right: 15.25vmin;
+		margin-top: 25vmin;
+		transform: rotate(105deg);
+	}
 
 
 }
