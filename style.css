@@ -53,3 +53,7 @@ h1 {
 	animation: orbit-cloud 3s ease 0s infinite alternate;
 	opacity: 0.25;
 }
+@keyframes orbit-cloud {
+	0% { filter: hue-rotate(0deg); }
+	100% { filter: hue-rotate(50deg);}
+}
