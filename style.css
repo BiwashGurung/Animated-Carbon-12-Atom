@@ -317,3 +317,6 @@ p:after {
 .inner-nucleous p:after {
 	content: "( POSITIVE CHARGE )";
 }
+.inner-nucleous p + p:after {
+	content: "( NO CHARGE )";
+}
