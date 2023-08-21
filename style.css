@@ -35,3 +35,6 @@ h1 {
 	transition: 0.4s ease 0s;
 	cursor: zoom-in;
 }
+.atom:active {
+	transform: scale3d(1.5,1.5,1.5);
+}
