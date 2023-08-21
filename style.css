@@ -207,3 +207,9 @@ h1 {
 	width: 25vmin;
 	clip-path: polygon(0 50%, 100% 100%, 100% 100%, 0% 98%);
 }
+.inner-nucleous {
+	margin-left: 83vmin;
+	margin-right: 0 !important;
+	top: 19vmin !important;
+	height: 17.5vmin !important;
+}
