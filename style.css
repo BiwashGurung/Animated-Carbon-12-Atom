@@ -168,3 +168,15 @@ h1 {
 	align-items: center;
 	justify-content: center;
 }
+.inner-shell, .outer-shell, .inner-nucleous {
+	width: 20.5vmin;
+	height: 12vmin;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0.05;
+	top: 40vmin;
+	color: #fff;
+	margin-right: 80vmin;
+}
