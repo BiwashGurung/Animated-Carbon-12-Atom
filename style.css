@@ -101,6 +101,9 @@ h1 {
 	transform: rotateX(80deg) rotate(180deg);
 	animation: orbit-electron var(--tim) linear calc(var(--tim) * -0.5) infinite;
 }
-
+@keyframes orbit-electron {
+	0% { transform: rotateX(80deg) var(--pos) rotate(0deg); }
+	100% { transform: rotateX(80deg) var(--pos) rotate(-360deg);}
+}
 
 
