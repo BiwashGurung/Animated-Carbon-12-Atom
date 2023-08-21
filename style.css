@@ -328,3 +328,6 @@ body:has(.inner-shell:hover) .atom .orbits .electron:nth-child(-n+4),
 body:has(.inner-shell:hover) .atom .nucleous {
 	opacity: 0.15;
 }
+body:has(.inner-nucleous:hover) .atom .orbits .electron {
+	opacity: 0.15;
+}
