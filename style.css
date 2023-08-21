@@ -22,11 +22,14 @@ body * {
 h1 {
 	position: absolute;
 	top: 4vmin;
-	color: #fff;
+	color: transparent;
 	font-family: Arial, serif;
 	font-weight: normal;
 	font-size: 3.5vmin;
 	margin: 0;
+    background: linear-gradient(#483D8B ,#C0C0C0 , #2F5A78);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .atom {
@@ -165,7 +168,7 @@ h1 {
 
 
 
-/*** ELECTRONS ***/
+/***------------------CSS FOR  ELECTRONS --------------***/
 
 .orbits {
 	position: absolute;
