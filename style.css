@@ -237,3 +237,9 @@ h1 {
 	transform: rotate(14deg);
 	width: 6vmin;
 }
+.inner-nucleous:after {
+	transform: rotate(0deg);
+	left: -21.5vmin;
+	margin-top: 2.75vmin;
+	width: 21.5vmin;
+}
