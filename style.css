@@ -158,3 +158,13 @@ h1 {
 }
 
 /***-------------------CSS FOR INFO -----------------***/
+.info {
+	position: absolute;
+	width: 98vw;
+	height: 60vmin;
+	z-index: -1;
+	font-family: Arial, serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
