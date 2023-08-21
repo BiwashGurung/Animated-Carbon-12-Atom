@@ -231,3 +231,9 @@ h1 {
 	transform: rotate(-23deg);
 }
 
+.outer-shell:after {
+	right: -6vmin;
+	margin-top: 13.1vmin;
+	transform: rotate(14deg);
+	width: 6vmin;
+}
