@@ -38,3 +38,12 @@ h1 {
 .atom:active {
 	transform: scale3d(1.5,1.5,1.5);
 }
+.atom:before {
+	content: "";
+	width: 50vmin;
+	height: 50vmin;
+	position: absolute;
+	background: radial-gradient(#913ab7 -50%, #fff0 50%);
+	transform: translateZ(-6vmin);
+	
+}
