@@ -255,3 +255,8 @@ h1 {
 .inner-nucleous .info-particle {
 	height: 17.25vmin;
 }
+.inner-shell:hover,
+.outer-shell:hover,
+.inner-nucleous:hover{
+	opacity: 1;
+}
