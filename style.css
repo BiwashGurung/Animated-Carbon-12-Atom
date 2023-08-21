@@ -126,5 +126,9 @@ h1 {
 	transform: rotateX(90deg);
 	animation: orbit-electron-particle var(--tim) linear 0s infinite;
 }
+@keyframes orbit-electron-particle {
+	0% { transform: rotateX(90deg) rotateY(-360deg); }
+	100% { transform: rotateX(90deg) rotateY(0deg);}
+}
 
 
