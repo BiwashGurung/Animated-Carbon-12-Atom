@@ -295,3 +295,12 @@ p:before {
 	line-height: 3.15vmin;
 	text-align: center;
 }
+p:after {
+	content: "( NEGATIVE CHARGE )";
+	position: absolute;
+	bottom: -1.5vmin;
+	left: 0;
+	font-size: 1vmin;
+	width: 100%;
+	text-align: center;
+}
