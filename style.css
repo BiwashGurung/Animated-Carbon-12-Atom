@@ -142,5 +142,11 @@ h1 {
 	--pos: rotateY(110deg);
 	--tim: 1.275s;
 }
+.electron:nth-child(n+5) {
+	width: 67%;
+	height: 67%;
+	left: 18%;
+	top: 18%;
+}
 
 
