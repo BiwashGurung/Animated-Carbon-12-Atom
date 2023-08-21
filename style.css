@@ -323,7 +323,7 @@ h1 {
 	width: 15vmin;
 	height: 15vmin;
 	border: 0.25vmin solid #fff0;
-	border-left: 0.25vmin dotted #fff;
+	border-left: 0.25vmin groove #fff;
 	border-radius: 100% 0 0 0;
 	transform: rotate(-45deg);
 	right: -25vmin;
@@ -360,7 +360,7 @@ h1 {
 	right: -14.5vmin;
 	margin-top: -18vmin;
 	z-index: 333;
-	border-top: 0.25vmin dotted #fff;
+	border-top: 0.25vmin double #fff;
 	transform: rotate(-23deg);
 }
 
@@ -385,7 +385,7 @@ h1 {
 	height: 11.5vmin;
 	left: 0;
 	top: 0;
-	border: 0.25vmin dotted #fff;
+	border: 0.25vmin double #fff;
 	border-radius: 0.2vmin;
 }
 
@@ -406,7 +406,7 @@ h3 {
 	font-size: 1.9vmin;
 	font-weight: normal;
 	text-align: center;
-	border-bottom: 0.25vmin dotted #fff;
+	border-bottom: 0.25vmin double #fff;
 	padding-bottom: 0.75vmin;
 }
 
